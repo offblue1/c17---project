@@ -46,7 +46,7 @@ path.velocityX = -5;
 mainCyclist  = createSprite(70,150);
 mainCyclist.addAnimation("SahilRunning",mainRacerImg1);
 mainCyclist.scale=0.07;
-  
+mainCyclist.setCollider("circle",0,0,40);
 //set collider for mainCyclist
 
   
